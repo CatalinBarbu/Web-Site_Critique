@@ -17,6 +17,9 @@ bottom a,
 .text {
   font-family: "Graphik";
 }
+.opacity {
+  font-family: "Graphik";
+}
 /* ======================== */
 
 /* === General Styles === */
@@ -103,15 +106,104 @@ article h2 {
 }
 .bold {
   font-weight: bold;
+  font-family: "Theinhardt";
 }
 .opacity {
   opacity: 0.6;
   width: 100%;
   max-width: 450px;
 }
+.flexHowItWorks {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e9eaec;
+  width: 100%;
+  max-width: 950px;
+  margin: 5vh auto;
+}
+.flexHowItWorks h2 {
+  font-size: 2.4rem;
+  padding: 10px 0;
+}
+.widthARR {
+  width: 100%;
+  max-width: 450px;
+  padding-left: 25px;
+}
+.flexHowItWorks p {
+  opacity: 0.6;
+  padding-left: 30px;
+}
+.imgBGG img {
+  width: 100%;
+  max-width: 400px;
+}
+.textCenterMain {
+  text-align: center;
+}
+.textCenterMain h2 {
+  font-size: 3.5rem;
+  padding-bottom: 3vh;
+}
+.textCenterMain p {
+  padding: 5px;
+  opacity: 0.6;
+}
+.img28 {
+  text-align: center;
+  padding-top: 8vh;
+}
+.img28 img {
+  width: 100%;
+  max-width: 800px;
+}
+.flexMan {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 8vh;
+}
+.flexMan p {
+  width: 100%;
+  max-width: 306px;
+  padding: 8px;
+}
 
+.imgCon img {
+  width: 100%;
+  max-width: 400px;
+}
 /* ======================== */
 
 /* ===== Footer Styles ===== */
-
+footer section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 5vh;
+}
+footer article p {
+  text-align: center;
+  padding: 10vh 0 2vh 0;
+}
+footer article img {
+  width: 100%;
+  max-width: 50px;
+}
+footer article a {
+  text-decoration: none;
+  color: black;
+}
+footer article span {
+  opacity: 0.6;
+}
+footer article {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
 /* ======================== */
