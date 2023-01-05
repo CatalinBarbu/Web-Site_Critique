@@ -33,28 +33,37 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+.light-theme {
+  background-color: white;
+  color: black;
+}
+.dark-theme {
+  background-color: black;
+  color: white;
+}
 /* ======================== */
 
 /* ===== Header Styles ===== */
 nav a {
   padding: 5px;
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 article h1,
 article h2 {
   font-family: "TiemposHeadline";
 }
-.bottom a {
+.bottom button {
   text-decoration: none;
   color: black;
   border: 3px solid black;
   padding: 1px 20px;
 }
-.bottom a:hover {
+.bottom button:hover {
   background-color: darkorange;
   border: 3px solid darkorange;
   box-shadow: 0 0 2px 2px darkorange;
+  cursor: pointer;
 }
 .flexAllNavBar {
   display: flex;
@@ -199,7 +208,7 @@ footer article img {
 }
 footer article a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 footer article span {
   opacity: 0.6;
