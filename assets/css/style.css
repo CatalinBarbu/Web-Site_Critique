@@ -1,16 +1,23 @@
 /* === Font-Family === */
 @font-face {
   font-family: "Graphik";
-  src: url(../fonts/Graphik-Font-Family/GraphikRegular.otf);
+  src: url("../fonts/Graphik-Font-Family/GraphikRegular.otf");
 }
 @font-face {
   font-family: "TiemposHeadline";
-  src: url(../fonts/Tiempos-Font/TiemposHeadline-Regular.otf);
+  src: url("../fonts/Tiempos-Font/TiemposHeadline-Regular.otf");
 }
 @font-face {
   font-family: "Theinhardt";
-  src: url(../fonts/theinhardt-pan-regular.otf);
+  src: url("../fonts/theinhardt-pan-regular.otf");
 }
+nav a,
+.textCenter,
+bottom a,
+.text {
+  font-family: "Graphik";
+}
+/* ======================== */
 
 /* === General Styles === */
 * {
@@ -18,8 +25,93 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* ======================== */
+
 /* ===== Header Styles ===== */
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+article h1,
+article h2 {
+  font-family: "TiemposHeadline";
+}
+.bottom a {
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  padding: 1px 20px;
+}
+.bottom a:hover {
+  background-color: darkorange;
+  border: 3px solid darkorange;
+  box-shadow: 0 0 2px 2px darkorange;
+}
+.flexAllNavBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 2vh 0 8vh 0;
+}
+.textCenter {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.bgdImg img {
+  height: 55vh;
+  width: 100%;
+}
+.text {
+  width: 100%;
+  max-width: 580px;
+}
+.flexAllParagraf {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10vh 150px 10vh 70px;
+}
+.preis p:nth-of-type(1) {
+  font-size: 3.5rem;
+}
+.preis p:nth-of-type(2) {
+  opacity: 0.6;
+  width: 150px;
+}
+/* ======================== */
 
 /* ===== Main Styles ===== */
+.mainFlexAll {
+  display: flex;
+  justify-content: center;
+}
+.imgMain img {
+  width: 100%;
+  max-width: 500px;
+}
+.mainFlexAll article h2 {
+  font-size: 2.4rem;
+  padding-bottom: 40px;
+}
+.mainFlexAll article p {
+  padding: 15px;
+}
+.bold {
+  font-weight: bold;
+}
+.opacity {
+  opacity: 0.6;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* ======================== */
 
 /* ===== Footer Styles ===== */
+
+/* ======================== */
