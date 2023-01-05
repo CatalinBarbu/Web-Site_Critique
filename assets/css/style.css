@@ -245,6 +245,7 @@ footer article {
   .flexMan {
     align-items: center;
     flex-direction: column-reverse;
+    border: 0;
   }
   .imgCon img {
     max-width: 250px;
@@ -260,5 +261,9 @@ footer article {
   }
   .mediaQueries h2 {
     padding: 3vh 0 0 1vw;
+  }
+  footer h2 {
+    border-top: 1px solid black;
+    margin: 0 auto;
   }
 }
