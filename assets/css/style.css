@@ -235,8 +235,24 @@ footer article {
     padding: 10vh 3vw 10vh 4vw;
     flex-wrap: wrap;
   }
+  .flexHowItWorks {
+    flex-direction: column;
+  }
+  .textCenterMain {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .flexMan {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .imgCon img {
+    max-width: 250px;
+    bottom: 4vh;
+    margin-right: 10vw;
+  }
   p {
-    font-size: 0.8;
+    font-size: 0.9rem;
   }
   .mainFlexAll {
     flex-direction: row-reverse;
